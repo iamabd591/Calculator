@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e91e63;
+    height: 100%;
+}
+
+.main {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    padding: 3px;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background: #607d8b;
+}
+
+.textview {
+    width: 220px;
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+    color: #607d8b;
+    outline: none;
+}
